@@ -1,0 +1,155 @@
+.root {
+    height: 100vh;
+}
+.btn {
+    cursor: pointer;
+}
+.header {
+    height: 100px;
+}
+.btn-refresh {
+    border-radius: 50%;
+    color: white;
+    background-color: #4CAF50;
+    height: 4rem;
+    width: 4rem;
+}
+.currency {
+    cursor: pointer;
+    text-align: center;    
+    width: 90px;    
+}
+.fa  {
+    color: #fff !important;
+
+}
+.table {
+    color: #fff !important;
+}
+.table-body > tr > td {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff !important;
+}
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.lm_root {
+    height: 100vh;
+}
+
+.goldenLayout {
+    height: 100vh;
+}
+.row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    color: #757575;
+  }
+  
+  #coindesk {
+    font-weight: 300;
+  }
+  
+  #coindesk a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .popup {
+    min-height: 50px;
+  }
+  #data-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+  .box {
+    width: 250px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    color: #2196F3;
+  }
+  
+  .subtext {
+    color: #64B5F6;
+  }
+  
+  #left {
+    margin-right: 48px;
+  }
+  
+  #middle {
+    padding: 0 48px;
+    border-left: 1px solid #DAE1E9;
+    border-right: 1px solid #DAE1E9;
+  }
+  
+  #right {
+    margin-left: 48px;
+  }
+  .linechart {
+    padding: 8px;
+  }
+  .linechart_path {
+    stroke-width: 3;
+    fill: none;
+  }
+  
+  .linechart_axis {
+    stroke: #bdc3c7;
+  }
+  
+  .linechart_point {
+    fill: #fff;
+    stroke-width: 2;
+  }
+  
+  .linechart_area {
+    padding: 8px;
+    fill: #64B5F6;
+    stroke: none;
+    opacity: .4;
+  }
+  
+  .linechart_label {
+   fill: #64B5F6;
+   font-weight: 700;
+  }
+  
+  .hoverLine {
+    stroke: #7D95B6;
+    stroke-width: 1;
+  }
+  .hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    position: absolute;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .hover .price {
+    font-weight: 700;
+  }
